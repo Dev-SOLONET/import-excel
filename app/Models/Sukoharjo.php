@@ -9,13 +9,14 @@ class Sukoharjo extends Model
 {
     use HasFactory;
 
-    protected $table = 'SUKOHARJO';
+    protected $table = 'KLATEN';
 
     protected $fillable = [
         'kelurahan_id',
         'kecamatan_id',
         'kabupaten_id',
         'provinsi_id',
+        'alamat',
     ];
 
     // timestamp false
